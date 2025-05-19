@@ -4,9 +4,14 @@
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "src":"node hello.js"
+    "src": "node Arthimatic.js",
+    "Server": "node Index.js",
+    "newserver":"node Server.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "url": "^0.11.4"
+  }
 }
